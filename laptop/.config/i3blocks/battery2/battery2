@@ -70,7 +70,7 @@ else:
         fulltext = FA_QUESTION + " " + FA_BATTERY + " "
         timeleft = ""
     else:
-        fulltext = FA_LIGHTNING + " " + FA_PLUG + " "
+        fulltext = FA_PLUG + " "
 
     def color(percent):
         if percent < 10:
