@@ -32,6 +32,15 @@ IF="${IF:-$(ip route | awk '/^default/ { print $5 ; exit }')}"
 
 #------------------------------------------------------------------------
 
+# Recovering network name
+NETWORK_NAME=$(
+  LC_ALL=C nmcli -t -f name,device c s -a \
+		| grep ":$IF$" \
+		| cut -d':' -f1
+)
+
+#------------------------------------------------------------------------
+
 AF=${ADDRESS_FAMILY:-inet6?}
 LABEL="${LABEL:-}"
 
@@ -66,5 +75,5 @@ esac
 
 #------------------------------------------------------------------------
 
-echo "$LABEL$IPADDR" # full text
+echo "$LABEL$NETWORK_NAME |$IPADDR" # full text
 echo "$LABEL$IPADDR" # short text
