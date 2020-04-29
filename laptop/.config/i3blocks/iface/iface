@@ -75,5 +75,5 @@ esac
 
 #------------------------------------------------------------------------
 
-echo "$LABEL$NETWORK_NAME |$IPADDR" # full text
+echo "$LABEL$NETWORK_NAME:$IPADDR" # full text
 echo "$LABEL$IPADDR" # short text

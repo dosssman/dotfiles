@@ -60,7 +60,7 @@ interval=10
 [battery2]
 command=./battery2/battery2
 markup=pango
-interval=30
+interval=10
 
 [ram]
 command=echo -n ' '; ./memory/memory | grep -E -o '^[0-9]+.[0-9]G'
