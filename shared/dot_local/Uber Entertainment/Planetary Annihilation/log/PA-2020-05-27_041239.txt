@@ -1,0 +1,399 @@
+[04:12:39.827] INFO Started at 2020-05-27 04:12:39
+[04:12:39.827] INFO SDL: Built w/ v2.0.10, linked w/ v2.0.10
+[04:12:39.882] INFO Looks like we are running via Steam
+[04:12:39.883] INFO Loaded build_id 20200501043642
+[04:12:39.883] INFO Loaded build 114220
+[04:12:39.883] INFO Loaded version 114220
+[04:12:39.883] INFO Log file /home/d055/.local/Uber Entertainment/Planetary Annihilation/log/PA-2020-05-27_041239.txt opened
+[04:12:39.884] INFO LoadedLocalModCollection::loadLocalModCollection: Failed listDir call for "/client_mods/"; no mods will be loaded from this path
+[04:12:39.884] WARN LoadedLocalModCollection::loadLocalModCollection: Could not open /client_mods/mods.json file; mods will not be mounted
+[04:12:39.884] INFO Client found 2 file system mods, mounted 0
+[04:12:39.885] INFO LoadedLocalModCollection::loadLocalModCollection: Failed listDir call for "/server_mods/"; no mods will be loaded from this path
+[04:12:39.885] WARN LoadedLocalModCollection::loadLocalModCollection: Could not open /server_mods/mods.json file; mods will not be mounted
+[04:12:39.886] INFO LoadedLocalModCollection::loadLocalModCollection: Failed listDir call for "/client_mods/"; no mods will be loaded from this path
+[04:12:39.886] WARN LoadedLocalModCollection::loadLocalModCollection: Could not open /client_mods/mods.json file; mods will not be mounted
+[04:12:39.886] INFO Client found 2 file system mods, mounted 0
+[04:12:39.886] INFO LoadedLocalModCollection::loadLocalModCollection: Failed listDir call for "/server_mods/"; no mods will be loaded from this path
+[04:12:39.886] WARN LoadedLocalModCollection::loadLocalModCollection: Could not open /server_mods/mods.json file; mods will not be mounted
+[04:12:40.045] INFO Successfully created context with configuration 1/10: v4.6 (core)
+[04:12:40.045] INFO HAL initializing...
+[04:12:40.045] INFO OpenGL Vendor: NVIDIA Corporation
+[04:12:40.045] INFO OpenGL Renderer: GeForce GTX 1080/PCIe/SSE2
+[04:12:40.045] INFO OpenGL Version: 4.6.0 NVIDIA 435.21
+[04:12:40.045] INFO OpenGL Shader Language Version: 4.60 NVIDIA
+[04:12:40.045] INFO Vendor flag set to NVidia
+[04:12:40.046] INFO Supported rasterizer capabilities: Gamma correct pipeline, Ranged mapping, Advanced instancing, Advanced shaders, Compute shaders
+[04:12:40.046] INFO Unsupported rasterizer capabilities: Persistent buffer mapping
+[04:12:40.046] INFO Buffer textures enabled.
+[04:12:40.046] INFO initial size 2560x1440
+[04:12:40.051] INFO Starting async parallel for driver with 10 threads
+[04:12:40.052] INFO Loading effects from file /shaders/post.json
+[04:12:40.065] INFO Loading effects from file /shaders/content.json
+[04:12:40.117] INFO Loading effects from file /shaders/impostors.json
+[04:12:40.119] INFO Loading effects from file /shaders/misc.json
+[04:12:40.129] INFO Loading effects from file /shaders/particle.json
+[04:12:40.197] INFO Loading effects from file /shaders/scene.json
+[04:12:40.216] INFO Loading effects from file /shaders/vtex.json
+[04:12:40.234] INFO Coherent content root: "coui://ui/"
+[04:12:40.234] INFO Coherent host dir: "/home/d055/Win7/Random/ArchSteam/steamapps/common/Planetary Annihilation Titans/host"
+[04:12:40.234] INFO Coherent local store: "/home/d055/.local/Uber Entertainment/Planetary Annihilation/localstore"
+[04:12:40.234] INFO Coherent crash dumps: "/home/d055/.local/Uber Entertainment/Planetary Annihilation/log"
+[04:12:40.234] INFO [COUI] Additional host options detected. Please note that these options are experimental, untested and not officially supported, they might cause unexpected behaviour.
+[04:12:40.234] INFO [COUI] AdditionalHostOptions {--resource-buffer-max-allocation-size=134217728 --resource-buffer-size=2097152}
+[04:12:40.237] INFO ClientInterface constructed
+[04:12:40.893] INFO FMOD Version 4.44.64
+[04:12:40.962] INFO {{FMOD}} fmod buffer size 5
+[04:12:40.984] INFO Using local server at /home/d055/Win7/Random/ArchSteam/steamapps/common/Planetary Annihilation Titans/server
+[04:12:40.987] INFO [COUI] PID: 1372800 | 1372800 19:12:40.267256 [1372800:1372800:WARNING:resource_bundle.cc(303)] locale_file_path.empty()
+[04:12:40.987] INFO [COUI] PID: 1372800 | 1372800 19:12:40.267432 [1372800:1372800:ERROR:browser_main_loop.cc(164)] Running without the SUID sandbox! See https://code.google.com/p/chromium/wiki/LinuxSUIDSandboxDevelopment for more information on developing with the sandbox on.
+[04:12:40.987] INFO [COUI] PID: 1372800 | 1372815 19:12:40.309650 [1372800:1372815:WARNING:proxy_service.cc(901)] PAC support disabled because there is no system implementation
+[04:12:40.987] INFO [COUI] PID: 1372800 | 1372800 19:12:40.384424 [1372800:1372800:WARNING:(0)] locale_file_path.empty()
+[04:12:40.000] INFO ContextReady
+[04:12:40.000] INFO gEngineParams = {"gog":{"confirmed":false},"devmode":false,"steam":{"owned_content":["PAExpansion1"],"persona_name":"5413NY4","titans_kickstarter_gift":false,"confirmed":true,"steamid":"76561198110288954"}};
+gUnlockedContent = ["PAExpansion1"];
+gActiveContent = "PAExpansion1";
+gSessionBackup = {};
+gPanelPageId = undefined;
+gNoMods = false;
+gVersion = "114220";
+gBuild = "114220";
+gBuildID = "20200501043642";
+gBuildId = "20200501043642";
+[04:12:41.647] INFO Caching boot.js & boot.css
+[04:12:41.681] ERROR appendFile Unable to find path: /ui/mods/ui_mod_list.js
+[04:12:42.894] INFO [JS/main] :173: units info DB ready
+[04:12:43.010] INFO [JS/main] :173: uninstallMod com.pa.chat
+[04:12:43.010] INFO [JS/main] :173: uninstallMod com.pa.mikeyh.meteors-server
+[04:12:43.027] INFO [JS/main] :173: uninstallMod com.pa.mikeyh.meteors-client
+[04:12:43.037] INFO [JS/main] :173: downloadOfflineFiles
+[04:12:43.037] INFO [JS/main] :173: updateFileSystemMods
+[04:12:43.037] INFO [JS/main] :173: scanFileSystemForMods
+[04:12:43.037] INFO [JS/main] :173: scanFileSystemClientMods
+[04:12:43.037] INFO [JS/main] :173: scanFileSystemServerMods
+[04:12:43.037] INFO [JS/main] :368: CHECKING FILE SYSTEM MODS
+[04:12:43.037] INFO [JS/main] :1477: community mods ready
+[04:12:43.049] INFO [JS/main] :173: mergeFileSystemModsIntoInstalledMods
+[04:12:43.062] INFO [JS/main] :173: 0.05 seconds to update and merge file system mods
+[04:12:43.094] INFO [JS/main] :368: UPDATING AVAILABLE MODS
+[04:12:43.094] INFO [JS/main] :173: loadAvailableMods
+[04:12:43.094] INFO [JS/main] :1477: community mods ready
+[04:12:43.210] INFO [JS/main] :173: processAvailableModData
+[04:12:43.394] INFO [JS/main] :173: 0.182 seconds to process
+[04:12:43.394] INFO [JS/main] :368: UPDATING ACTIVE MODS
+[04:12:43.394] INFO [JS/main] :173: updateActiveZipMods
+[04:12:43.394] INFO [JS/main] :173: downloadMany 23
+[04:12:43.394] INFO [JS/main] :173: download community-mods-jszip.custom.min.js with md5: 459ee49f5a208773d772853d76724979 from https://cdn.palobby.com/community-mods/js/jszip.custom.min.js
+[04:12:43.394] INFO [JS/main] :173: download community-mods-manager.js with md5: 3cb798434df6b8aa6fdda960435a4adb from https://cdn.palobby.com/community-mods/js/community-mods-manager.js
+[04:12:43.395] INFO [JS/main] :173: download community-mods-main.js with md5: d20c23a640f0d0ef859f18d6631ca6b9 from https://cdn.palobby.com/community-mods/js/main.js
+[04:12:43.395] INFO [JS/main] :173: download community-mods-start.css with md5: e771d4d404acd78f73b34fdfd5fcd697 from https://cdn.palobby.com/community-mods/css/start.css
+[04:12:43.395] INFO [JS/main] :173: download community-mods-start.js with md5: d8a7c2ed775d74b1191a7d729f9b2a3b from https://cdn.palobby.com/community-mods/js/start.js
+[04:12:43.395] INFO [JS/main] :173: download community-mods.css with md5: f7b9cee63980eb9c11c4b5ec8f4dfe71 from https://cdn.palobby.com/community-mods/css/community-mods.css
+[04:12:43.396] INFO [JS/main] :173: download community-mods.html with md5: b08129a1709d26b5380026d8cec61701 from https://cdn.palobby.com/community-mods/html/community-mods.html
+[04:12:43.396] INFO [JS/main] :173: download community-mods.js with md5: 8e6c1b28ed58b48c459053fa66084a7f from https://cdn.palobby.com/community-mods/js/community-mods.js
+[04:12:43.396] INFO [JS/main] :173: download community-mods-server_browser.css with md5: 142d9e097318d2ebe2ad31adb14513ae from https://cdn.palobby.com/community-mods/css/server_browser.css
+[04:12:43.396] INFO [JS/main] :173: download community-mods-server_browser.js with md5: fa1982849a0977a372629b2724409d2c from https://cdn.palobby.com/community-mods/js/server_browser.js
+[04:12:43.396] INFO [JS/main] :173: download community-mods-connect_to_game.js with md5: 78373466bf23de070c16247d40810a3e from https://cdn.palobby.com/community-mods/js/connect_to_game.js
+[04:12:43.396] INFO [JS/main] :173: download community-mods-transit.js with md5: fe1df04423f80bb57a06178e24942f99 from https://cdn.palobby.com/community-mods/js/transit.js
+[04:12:43.397] INFO [JS/main] :173: download community-mods-new_game.js with md5: f2f6ec6d267b2c43b43c09381006dcf4 from https://cdn.palobby.com/community-mods/js/new_game.js
+[04:12:43.397] INFO [JS/main] :173: download community-mods-leaderboard.js with md5: 174102dbd57e946330fb82c05d346d1f from https://cdn.palobby.com/community-mods/js/leaderboard.js
+[04:12:43.397] INFO [JS/main] :173: download community-mods-replay_browser.js with md5: e38f682ad0a42b63c6109babe47f7d6c from https://cdn.palobby.com/community-mods/js/replay_browser.js
+[04:12:43.397] INFO [JS/main] :173: download community-mods-replay_loading.js with md5: 473e6b4e7a177b31d329732d4926c597 from https://cdn.palobby.com/community-mods/js/replay_loading.js
+[04:12:43.397] INFO [JS/main] :173: download community-mods-gw_play.js with md5: b71a71e8ec72fc38618cc8731bd377b9 from https://cdn.palobby.com/community-mods/js/gw_play.js
+[04:12:43.397] INFO [JS/main] :173: download community-mods-gw_referee.js with md5: 15c64f77dedb2104545ee779c0bf2f18 from https://cdn.palobby.com/community-mods/js/gw_referee.js
+[04:12:43.398] INFO [JS/main] :173: download community-mods-game_over.js with md5: 335da00412ba244287c41d140a123e28 from https://cdn.palobby.com/community-mods/js/game_over.js
+[04:12:43.398] INFO [JS/main] :173: download community-mods-system_editor.js with md5: 5389cbbb7b29b7a26522c061dc957065 from https://cdn.palobby.com/community-mods/js/system_editor.js
+[04:12:43.398] INFO [JS/main] :173: download community-mods-classic-icon.png with md5: 8fb5efa7ac5a0393f250d7d3087b62bb from https://cdn.palobby.com/community-mods/img/classic.png
+[04:12:43.398] INFO [JS/main] :173: download community-mods-titans-icon.png with md5: 9a7ea269fe853aa21cb4f48339182e50 from https://cdn.palobby.com/community-mods/img/titans.png
+[04:12:43.398] INFO [JS/main] :173: download community-mods-legion-icon.png with md5: 2cc0511728a0b353e447424e2fd50d71 from https://cdn.palobby.com/community-mods/img/legion.png
+[04:12:43.398] INFO [JS/main] :1477: community mods ready
+[04:12:43.398] INFO [JS/main] :173: updateZipMods
+[04:12:43.398] INFO [JS/main] :173: downloadMany 25
+[04:12:43.398] INFO [JS/main] :173: download community-chat.zip with md5: ebc43ce8e4362832e931eca03378c615 from https://cdn.palobby.com/community-mods/downloads/community-chat.zip
+[04:12:43.399] INFO [JS/main] :173: download com.pa.quitch.qAIModCompatibilityPatch.zip with md5: c2952b46353b686d44a376b05415c331 from https://cdn.palobby.com/community-mods/downloads/com.pa.quitch.qAIModCompatibilityPatch.zip
+[04:12:43.399] INFO [JS/main] :173: download com.pa.legion-expansion-client.zip with md5: 4a24d483f6137609e9cb2f00251bd5eb from https://cdn.palobby.com/community-mods/downloads/com.pa.legion-expansion-client.zip
+[04:12:43.528] INFO [JS/main] :173: download com.pa.legion-expansion-server.zip with md5: 42516f213eb40a113183f41ca372da00 from https://cdn.palobby.com/community-mods/downloads/com.pa.legion-expansion-server.zip
+[04:12:43.544] INFO [JS/main] :173: download com.pa.quitch.qQuellerAI.zip with md5: d0b1f399661ec082e38a023a7ee57e49 from https://cdn.palobby.com/community-mods/downloads/com.pa.quitch.qQuellerAI.zip
+[04:12:43.545] INFO [JS/main] :173: download com.pa.conundrum.cShareSystems.zip with md5: 73ec103db4e2cfe1b3d9ae23bd941094 from https://cdn.palobby.com/community-mods/downloads/com.pa.conundrum.cShareSystems.zip
+[04:12:43.545] INFO [JS/main] :173: download com.pa.grandhomie.simplebiomes.server.zip with md5: 45c81478adbb5f9ea62b584cd32ed589 from https://cdn.palobby.com/community-mods/downloads/com.pa.grandhomie.simplebiomes.server.zip
+[04:12:43.547] INFO [JS/main] :173: download com.pa.grandhomie.simplebiomes.client.zip with md5: b9f72a94b27864202b893567e6b2c492 from https://cdn.palobby.com/community-mods/downloads/com.pa.grandhomie.simplebiomes.client.zip
+[04:12:43.549] INFO [JS/main] :173: download com.pa.grandhomie.maps.zip with md5: b0fdd2d3adecec9eb53cac723c4461db from https://cdn.palobby.com/community-mods/downloads/com.pa.grandhomie.maps.zip
+[04:12:43.551] INFO [JS/main] :173: download nl.pa.wpmarshall.wpmarshall_map_pack.zip with md5: 017cfc8255be46490e1a7f2fda9b8beb from https://cdn.palobby.com/community-mods/downloads/nl.pa.wpmarshall.wpmarshall_map_pack.zip
+[04:12:43.554] INFO [JS/main] :173: download com.pa.domdom.laser_unit_effects.zip with md5: 6ecf559eabad2d7ccae9387edd24f008 from https://cdn.palobby.com/community-mods/downloads/com.pa.domdom.laser_unit_effects.zip
+[04:12:43.554] INFO [JS/main] :173: download com.exodusesports.tournamentmappack.zip with md5: afda7cf4df35bc3b8299250cd36f49d2 from https://cdn.palobby.com/community-mods/downloads/com.exodusesports.tournamentmappack.zip
+[04:12:43.561] INFO [JS/main] :173: download com.pa.raevn.rfloatframe.zip with md5: 04c20352d0a6e9af33eeb08476650d4a from https://cdn.palobby.com/community-mods/downloads/com.pa.raevn.rfloatframe.zip
+[04:12:43.561] INFO [JS/main] :173: download com.pa.proeleert.hotbuild2.zip with md5: 25516e0879b310ce07e42666988a2201 from https://cdn.palobby.com/community-mods/downloads/com.pa.proeleert.hotbuild2.zip
+[04:12:43.561] INFO [JS/main] :173: download com.pa.trialq.tinfinitebuild.zip with md5: 9e0e47a225b8a665437cdfd1908558e7 from https://cdn.palobby.com/community-mods/downloads/com.pa.trialq.tinfinitebuild.zip
+[04:12:43.561] INFO [JS/main] :173: download com.pa.lula-mae.milkyway-skybox.zip with md5: bf614d7985aace884c862e740872903c from https://cdn.palobby.com/community-mods/downloads/com.pa.lula-mae.milkyway-skybox.zip
+[04:12:43.572] INFO [JS/main] :173: download com.wondible.pa.no_default_system.zip with md5: 273fabe67d0897ffdf8516f98b21b40b from https://cdn.palobby.com/community-mods/downloads/com.wondible.pa.no_default_system.zip
+[04:12:43.572] INFO [JS/main] :173: download com.pa.DeathByDenim.dFavouriteColour.zip with md5: bd3e91c773f2cd8f2b0c08230149c502 from https://cdn.palobby.com/community-mods/downloads/com.pa.DeathByDenim.dFavouriteColour.zip
+[04:12:43.572] INFO [JS/main] :173: download com.pa.client.mirolog.boom.zip with md5: fc738245e7848948a6ebfa683bec81f3 from https://cdn.palobby.com/community-mods/downloads/com.pa.client.mirolog.boom.zip
+[04:12:43.572] INFO [JS/main] :173: download com.uberent.pa.PAFX.zip with md5: d047c7dc15004c963bf66d93aa8787cb from https://cdn.palobby.com/community-mods/downloads/com.uberent.pa.PAFX.zip
+[04:12:43.573] INFO [JS/main] :173: download uk.pa.tetctree.zip with md5: 96a91cac722fea8bdf0d5f5db6eedbd8 from https://cdn.palobby.com/community-mods/downloads/uk.pa.tetctree.zip
+[04:12:43.574] INFO [JS/main] :173: download uk.pa.tetctree.server.zip with md5: 38a9cfc0ba6dc7566c83dd0b75b73cab from https://cdn.palobby.com/community-mods/downloads/uk.pa.tetctree.server.zip
+[04:12:43.576] INFO [JS/main] :173: download uk.pa.tetcmappack.zip with md5: b20611be6c01aa3b6482901e25954f09 from https://cdn.palobby.com/community-mods/downloads/uk.pa.tetcmappack.zip
+[04:12:43.580] INFO [JS/main] :173: download com.pa.kingslayergm.maps.zip with md5: 26fda6cb31472d30b0b48e98541e9e75 from https://cdn.palobby.com/community-mods/downloads/com.pa.kingslayergm.maps.zip
+[04:12:43.580] INFO [JS/main] :173: download com.pa.domdom.tele_landing.zip with md5: aa81d70ec068e3f2ccac5164a3e788a1 from https://cdn.palobby.com/community-mods/downloads/com.pa.domdom.tele_landing.zip
+[04:12:43.580] INFO [JS/main] :173: community-mods-jszip.custom.min.js up to date
+[04:12:43.580] INFO [JS/main] :173: community-mods-manager.js up to date
+[04:12:43.580] INFO [JS/main] :173: community-mods-main.js up to date
+[04:12:43.580] INFO [JS/main] :173: community-mods-start.css up to date
+[04:12:43.581] INFO [JS/main] :173: community-mods-start.js up to date
+[04:12:43.581] INFO [JS/main] :173: community-mods.css up to date
+[04:12:43.581] INFO [JS/main] :173: community-mods.html up to date
+[04:12:43.581] INFO [JS/main] :173: community-mods.js up to date
+[04:12:43.581] INFO [JS/main] :173: community-mods-server_browser.css up to date
+[04:12:43.581] INFO [JS/main] :173: community-mods-server_browser.js up to date
+[04:12:43.581] INFO [JS/main] :173: community-mods-connect_to_game.js up to date
+[04:12:43.581] INFO [JS/main] :173: community-mods-transit.js up to date
+[04:12:43.581] INFO [JS/main] :173: community-mods-new_game.js up to date
+[04:12:43.581] INFO [JS/main] :173: community-mods-leaderboard.js up to date
+[04:12:43.581] INFO [JS/main] :173: community-mods-replay_browser.js up to date
+[04:12:43.581] INFO [JS/main] :173: community-mods-replay_loading.js up to date
+[04:12:43.581] INFO [JS/main] :173: community-mods-gw_play.js up to date
+[04:12:43.581] INFO [JS/main] :173: community-mods-gw_referee.js up to date
+[04:12:43.581] INFO [JS/main] :173: community-mods-game_over.js up to date
+[04:12:43.581] INFO [JS/main] :173: community-mods-system_editor.js up to date
+[04:12:43.581] INFO [JS/main] :173: community-mods-classic-icon.png up to date
+[04:12:43.581] INFO [JS/main] :173: community-mods-titans-icon.png up to date
+[04:12:43.581] INFO [JS/main] :173: community-mods-legion-icon.png up to date
+[04:12:43.581] INFO [JS/main] :173: 0.393 seconds to download offline files
+[04:12:43.581] INFO [JS/main] :173: community-chat.zip up to date
+[04:12:43.581] INFO [JS/main] :173: com.pa.quitch.qAIModCompatibilityPatch.zip up to date
+[04:12:43.581] INFO [JS/main] :173: com.pa.legion-expansion-client.zip up to date
+[04:12:43.581] INFO [JS/main] :173: com.pa.legion-expansion-server.zip up to date
+[04:12:43.581] INFO [JS/main] :173: com.pa.quitch.qQuellerAI.zip up to date
+[04:12:43.581] INFO [JS/main] :173: com.pa.conundrum.cShareSystems.zip up to date
+[04:12:43.581] INFO [JS/main] :173: com.pa.grandhomie.simplebiomes.server.zip up to date
+[04:12:43.581] INFO [JS/main] :173: com.pa.grandhomie.simplebiomes.client.zip up to date
+[04:12:43.581] INFO [JS/main] :173: com.pa.grandhomie.maps.zip up to date
+[04:12:43.581] INFO [JS/main] :173: nl.pa.wpmarshall.wpmarshall_map_pack.zip up to date
+[04:12:43.581] INFO [JS/main] :173: com.pa.domdom.laser_unit_effects.zip up to date
+[04:12:43.581] INFO [JS/main] :173: com.exodusesports.tournamentmappack.zip up to date
+[04:12:43.581] INFO [JS/main] :173: com.pa.raevn.rfloatframe.zip up to date
+[04:12:43.581] INFO [JS/main] :173: com.pa.proeleert.hotbuild2.zip up to date
+[04:12:43.581] INFO [JS/main] :173: com.pa.trialq.tinfinitebuild.zip up to date
+[04:12:43.581] INFO [JS/main] :173: com.pa.lula-mae.milkyway-skybox.zip up to date
+[04:12:43.581] INFO [JS/main] :173: com.wondible.pa.no_default_system.zip up to date
+[04:12:43.581] INFO [JS/main] :173: com.pa.DeathByDenim.dFavouriteColour.zip up to date
+[04:12:43.581] INFO [JS/main] :173: com.pa.client.mirolog.boom.zip up to date
+[04:12:43.581] INFO [JS/main] :173: com.uberent.pa.PAFX.zip up to date
+[04:12:43.581] INFO [JS/main] :173: uk.pa.tetctree.zip up to date
+[04:12:43.581] INFO [JS/main] :173: uk.pa.tetctree.server.zip up to date
+[04:12:43.581] INFO [JS/main] :173: uk.pa.tetcmappack.zip up to date
+[04:12:43.581] INFO [JS/main] :173: com.pa.kingslayergm.maps.zip up to date
+[04:12:43.581] INFO [JS/main] :173: com.pa.domdom.tele_landing.zip up to date
+[04:12:43.603] INFO [JS/main] :173: 0.203 seconds to update installed zip mods
+[04:12:43.603] INFO [JS/main] :173: resetMods
+[04:12:43.603] INFO [JS/main] :173: download community-mods-client.zip with md5: undefined from data
+[04:12:43.604] INFO [JS/main] :173: download community-mods-server.zip with md5: undefined from data
+[04:12:43.615] INFO [JS/main] :1065: community-mods-client.zip complete 13988 / 13988
+[04:12:43.615] INFO [JS/main] :173: download community-mods-client.zip completed in 0.01 seconds
+[04:12:43.615] INFO [JS/main] :173: remountClientMods
+[04:12:43.615] INFO [JS/main] :1065: community-mods-server.zip complete 1846 / 1846
+[04:12:43.615] INFO [JS/main] :173: download community-mods-server.zip completed in 0.011 seconds
+[04:12:43.628] INFO [JS/main] :173: mountClientMods
+[04:12:43.628] INFO [JS/main] :173: mountZipMod com.pa.raevn.rfloatframe /download/com.pa.raevn.rfloatframe.zip with no reload
+[04:12:43.628] INFO [JS/main] :173: mountZipMod com.pa.conundrum.cShareSystems /download/com.pa.conundrum.cShareSystems.zip with no reload
+[04:12:43.628] INFO [JS/main] :173: mountZipMod community-chat /download/community-chat.zip with no reload
+[04:12:43.633] INFO [JS/main] :173: mountZipMod com.pa.legion-expansion-client /download/com.pa.legion-expansion-client.zip with no reload
+[04:12:44.931] INFO [JS/main] :173: mountZipMod com.pa.grandhomie.simplebiomes.client /download/com.pa.grandhomie.simplebiomes.client.zip with no reload
+[04:12:44.937] INFO [JS/main] :173: mountZipMod com.pa.grandhomie.maps /download/com.pa.grandhomie.maps.zip with no reload
+[04:12:44.988] INFO [JS/main] :173: mountZipMod nl.pa.wpmarshall.wpmarshall_map_pack /download/nl.pa.wpmarshall.wpmarshall_map_pack.zip with no reload
+[04:12:45.058] INFO [JS/main] :173: mountZipMod com.exodusesports.tournamentmappack /download/com.exodusesports.tournamentmappack.zip with no reload
+[04:12:45.242] INFO [JS/main] :173: mountZipMod com.pa.proeleert.hotbuild2 /download/com.pa.proeleert.hotbuild2.zip with no reload
+[04:12:45.245] INFO [JS/main] :173: mountZipMod com.pa.trialq.tinfinitebuild /download/com.pa.trialq.tinfinitebuild.zip with no reload
+[04:12:45.245] INFO [JS/main] :173: mountZipMod com.pa.lula-mae.milkyway-skybox /download/com.pa.lula-mae.milkyway-skybox.zip with no reload
+[04:12:45.412] INFO [JS/main] :173: mountZipMod com.wondible.pa.no_default_system /download/com.wondible.pa.no_default_system.zip with no reload
+[04:12:45.412] INFO [JS/main] :173: mountZipMod com.pa.DeathByDenim.dFavouriteColour /download/com.pa.DeathByDenim.dFavouriteColour.zip with no reload
+[04:12:45.412] INFO [JS/main] :173: mountZipMod com.pa.client.mirolog.boom /download/com.pa.client.mirolog.boom.zip with no reload
+[04:12:45.416] INFO [JS/main] :173: mountZipMod com.uberent.pa.PAFX /download/com.uberent.pa.PAFX.zip with no reload
+[04:12:45.422] INFO [JS/main] :173: mountZipMod uk.pa.tetctree /download/uk.pa.tetctree.zip with no reload
+[04:12:45.427] INFO [JS/main] :173: mountZipMod uk.pa.tetcmappack /download/uk.pa.tetcmappack.zip with no reload
+[04:12:45.537] INFO [JS/main] :173: mountZipMod com.pa.kingslayergm.maps /download/com.pa.kingslayergm.maps.zip with no reload
+[04:12:45.544] INFO [JS/main] :173: mountZipMod com.pa.domdom.tele_landing /download/com.pa.domdom.tele_landing.zip with no reload
+[04:12:45.545] INFO [JS/main] :173: mountZipMod com.pa.domdom.laser_unit_effects /download/com.pa.domdom.laser_unit_effects.zip with no reload
+[04:12:45.553] INFO [JS/main] :173: mountZipMod community-mods-client /download/community-mods-client.zip with reload
+[04:12:45.553] INFO [JS/main] :3106: mounting /download/com.pa.raevn.rfloatframe.zip to /client_mods/com.pa.raevn.rfloatframe/ OK
+[04:12:45.553] INFO [JS/main] :3106: mounting /download/com.pa.conundrum.cShareSystems.zip to /client_mods/com.pa.conundrum.cShareSystems/ OK
+[04:12:45.553] INFO [JS/main] :3106: mounting /download/community-chat.zip to /client_mods/community-chat/ OK
+[04:12:45.554] INFO Caching boot.js & boot.css
+[04:12:45.583] ERROR appendFile Unable to find path: /ui/mods/ui_mod_list.js
+[04:12:45.588] INFO [JS/main] :3106: mounting /download/com.pa.legion-expansion-client.zip to /client_mods/com.pa.legion-expansion-client/ OK
+[04:12:45.588] INFO [JS/main] :3106: mounting /download/com.pa.grandhomie.simplebiomes.client.zip to /client_mods/com.pa.grandhomie.simplebiomes.client/ OK
+[04:12:45.588] INFO [JS/main] :3106: mounting /download/com.pa.grandhomie.maps.zip to /client_mods/com.pa.grandhomie.maps/ OK
+[04:12:45.588] INFO [JS/main] :3106: mounting /download/nl.pa.wpmarshall.wpmarshall_map_pack.zip to /client_mods/nl.pa.wpmarshall.wpmarshall_map_pack/ OK
+[04:12:45.588] INFO [JS/main] :3106: mounting /download/com.exodusesports.tournamentmappack.zip to /client_mods/com.exodusesports.tournamentmappack/ OK
+[04:12:45.588] INFO [JS/main] :3106: mounting /download/com.pa.proeleert.hotbuild2.zip to /client_mods/com.pa.proeleert.hotbuild2/ OK
+[04:12:45.588] INFO [JS/main] :3106: mounting /download/com.pa.trialq.tinfinitebuild.zip to /client_mods/com.pa.trialq.tinfinitebuild/ OK
+[04:12:45.588] INFO [JS/main] :3106: mounting /download/com.pa.lula-mae.milkyway-skybox.zip to /client_mods/com.pa.lula-mae.milkyway-skybox/ OK
+[04:12:45.588] INFO [JS/main] :3106: mounting /download/com.wondible.pa.no_default_system.zip to /client_mods/com.wondible.pa.no_default_system/ OK
+[04:12:45.588] INFO [JS/main] :3106: mounting /download/com.pa.DeathByDenim.dFavouriteColour.zip to /client_mods/com.pa.DeathByDenim.dFavouriteColour/ OK
+[04:12:45.588] INFO [JS/main] :3106: mounting /download/com.pa.client.mirolog.boom.zip to /client_mods/com.pa.client.mirolog.boom/ OK
+[04:12:45.588] INFO [JS/main] :3106: mounting /download/com.uberent.pa.PAFX.zip to /client_mods/com.uberent.pa.PAFX/ OK
+[04:12:45.588] INFO [JS/main] :3106: mounting /download/uk.pa.tetctree.zip to /client_mods/uk.pa.tetctree/ OK
+[04:12:45.588] INFO [JS/main] :3106: mounting /download/uk.pa.tetcmappack.zip to /client_mods/uk.pa.tetcmappack/ OK
+[04:12:45.588] INFO [JS/main] :3106: mounting /download/com.pa.kingslayergm.maps.zip to /client_mods/com.pa.kingslayergm.maps/ OK
+[04:12:45.588] INFO [JS/main] :3106: mounting /download/com.pa.domdom.tele_landing.zip to /client_mods/com.pa.domdom.tele_landing/ OK
+[04:12:45.588] INFO [JS/main] :3106: mounting /download/com.pa.domdom.laser_unit_effects.zip to /client_mods/com.pa.domdom.laser_unit_effects/ OK
+[04:12:45.588] INFO [JS/main] :3106: mounting /download/community-mods-client.zip to /client_mods/ OK
+[04:12:45.588] INFO [JS/main] :173: 1.938 seconds to mount client zip mods
+[04:12:47.429] INFO ClientInterface constructed
+[04:12:47.802] INFO Client found 23 file system mods, mounted 21
+[04:12:47.803] INFO LoadedLocalModCollection::loadLocalModCollection: Failed listDir call for "/server_mods/"; no mods will be loaded from this path
+[04:12:47.803] WARN LoadedLocalModCollection::loadLocalModCollection: Could not open /server_mods/mods.json file; mods will not be mounted
+[04:12:47.810] ERROR [JS/IconAtlas] :1: Uncaught TypeError: undefined is not a function
+[04:12:47.810] ERROR [JS/SpecialIconAtlas] :1: Uncaught TypeError: undefined is not a function
+[04:12:47.813] INFO [JS/IconAtlas] bundle://boot/boot.js:44701: mods loaded in 0 seconds
+[04:12:47.813] INFO [JS/SpecialIconAtlas] bundle://boot/boot.js:44701: mods loaded in 0 seconds
+[04:12:47.816] INFO Caching boot.js & boot.css
+[04:12:47.850] INFO [JS/main] :173: 4.195 seconds to mount client mods and remount
+[04:12:47.850] INFO [JS/main] :173: 4.205 seconds to remount client mods
+[04:12:47.850] INFO [JS/main] :368: MOUNTING CLIENT MODS
+[04:12:47.850] INFO [JS/main] :45: Community Mods Done
+[04:12:47.850] INFO [JS/main] :506: 5.154 seconds to main done
+[04:12:47.850] ERROR [JS/SpecialIconAtlas] :1: Uncaught TypeError: undefined is not a function
+[04:12:47.850] ERROR [JS/IconAtlas] :1: Uncaught TypeError: undefined is not a function
+[04:12:47.850] ERROR [JS/SpecialIconAtlas] :1: Uncaught TypeError: undefined is not a function
+[04:12:47.850] ERROR [JS/SpecialIconAtlas] :1: Uncaught TypeError: undefined is not a function
+[04:12:47.850] ERROR [JS/IconAtlas] :1: Uncaught TypeError: undefined is not a function
+[04:12:47.851] ERROR [JS/IconAtlas] :1: Uncaught TypeError: undefined is not a function
+[04:12:47.851] ERROR [JS/SpecialIconAtlas] :1: Uncaught TypeError: undefined is not a function
+[04:12:47.851] ERROR [JS/SpecialIconAtlas] :1: Uncaught TypeError: undefined is not a function
+[04:12:47.851] ERROR [JS/IconAtlas] :1: Uncaught TypeError: undefined is not a function
+[04:12:47.852] ERROR [JS/IconAtlas] :1: Uncaught TypeError: undefined is not a function
+[04:12:47.888] INFO Reloading shader prelight_pa_unit_fab.fs
+[04:12:47.888] INFO Failed to load shader file: prelight_pa_unit_fab.fs
+[04:12:47.888] INFO Reloading shader unit_ring_hover.fs
+[04:12:47.888] INFO Reloading shader unit_ring_selection.fs
+[04:12:48.045] WARN [JS/SpecialIconAtlas] :0: Synchronous XMLHttpRequest on the main thread is deprecated because of its detrimental effects to the end user's experience. For more help, check http://xhr.spec.whatwg.org/.
+[04:12:48.057] INFO [JS/SpecialIconAtlas] bundle://boot/boot.js:44663: coui://ui/mods/rfloatframe/rfloatframe.js loaded in 0.019 seconds
+[04:12:48.057] WARN [JS/IconAtlas] :0: Synchronous XMLHttpRequest on the main thread is deprecated because of its detrimental effects to the end user's experience. For more help, check http://xhr.spec.whatwg.org/.
+[04:12:48.068] INFO [JS/IconAtlas] bundle://boot/boot.js:44663: coui://ui/mods/rfloatframe/rfloatframe.js loaded in 0.012 seconds
+[04:12:48.068] INFO [JS/SpecialIconAtlas] bundle://boot/boot.js:44663: coui://ui/mods/hotbuild2/global_mod_list/hotbuild.js loaded in 0.012 seconds
+[04:12:48.068] INFO [JS/SpecialIconAtlas] bundle://boot/boot.js:44701: mods loaded in 0.032 seconds
+[04:12:48.081] INFO [JS/IconAtlas] bundle://boot/boot.js:44663: coui://ui/mods/hotbuild2/global_mod_list/hotbuild.js loaded in 0.011 seconds
+[04:12:48.081] INFO [JS/IconAtlas] bundle://boot/boot.js:44701: mods loaded in 0.023 seconds
+[04:12:48.098] ERROR [JS/SpecialIconAtlas] :1: Uncaught TypeError: undefined is not a function
+[04:12:48.098] ERROR [JS/SpecialIconAtlas] :1: Uncaught TypeError: undefined is not a function
+[04:12:48.098] ERROR [JS/SpecialIconAtlas] :1: Uncaught TypeError: undefined is not a function
+[04:12:48.098] ERROR [JS/SpecialIconAtlas] :1: Uncaught TypeError: undefined is not a function
+[04:12:48.115] ERROR [JS/IconAtlas] :1: Uncaught TypeError: undefined is not a function
+[04:12:48.115] ERROR [JS/IconAtlas] :1: Uncaught TypeError: undefined is not a function
+[04:12:48.115] ERROR [JS/IconAtlas] :1: Uncaught TypeError: undefined is not a function
+[04:12:48.115] ERROR [JS/IconAtlas] :1: Uncaught TypeError: undefined is not a function
+[04:12:48.334] WARN [JS/SpecialIconAtlas] :0: Synchronous XMLHttpRequest on the main thread is deprecated because of its detrimental effects to the end user's experience. For more help, check http://xhr.spec.whatwg.org/.
+[04:12:48.334] WARN [JS/IconAtlas] :0: Synchronous XMLHttpRequest on the main thread is deprecated because of its detrimental effects to the end user's experience. For more help, check http://xhr.spec.whatwg.org/.
+[04:12:48.348] INFO [JS/IconAtlas] bundle://boot/boot.js:44663: coui://ui/mods/rfloatframe/rfloatframe.js loaded in 0.015 seconds
+[04:12:48.348] INFO [JS/SpecialIconAtlas] bundle://boot/boot.js:44663: coui://ui/mods/rfloatframe/rfloatframe.js loaded in 0.035 seconds
+[04:12:48.365] INFO [JS/SpecialIconAtlas] bundle://boot/boot.js:44663: coui://ui/mods/hotbuild2/global_mod_list/hotbuild.js loaded in 0.014 seconds
+[04:12:48.365] INFO [JS/IconAtlas] bundle://boot/boot.js:44663: coui://ui/mods/hotbuild2/global_mod_list/hotbuild.js loaded in 0.014 seconds
+[04:12:48.365] INFO [JS/SpecialIconAtlas] bundle://boot/boot.js:44701: mods loaded in 0.049 seconds
+[04:12:48.365] INFO [JS/IconAtlas] bundle://boot/boot.js:44701: mods loaded in 0.029 seconds
+[04:12:48.649] INFO resetGameStateInternal
+[04:12:48.649] INFO Mouse constraint cleared.
+[04:12:48.649] INFO Audio: cue mods reset
+[04:12:48.649] INFO ClientInterface constructed
+[04:12:50.497] INFO ClientInterface constructed
+[04:12:50.872] INFO Client found 23 file system mods, mounted 21
+[04:12:50.873] INFO LoadedLocalModCollection::loadLocalModCollection: Failed listDir call for "/server_mods/"; no mods will be loaded from this path
+[04:12:50.873] WARN LoadedLocalModCollection::loadLocalModCollection: Could not open /server_mods/mods.json file; mods will not be mounted
+[04:12:50.883] INFO [JS/uberbar] :439: getRank
+[04:12:50.956] INFO ClientInterface constructed
+[04:12:51.318] INFO [JS/main] :256: Community Mods hide splash
+[04:12:51.318] INFO Caching boot.js & boot.css
+[04:12:51.356] ERROR [JS/IconAtlas] :1: Uncaught TypeError: undefined is not a function
+[04:12:51.356] ERROR [JS/SpecialIconAtlas] :1: Uncaught TypeError: undefined is not a function
+[04:12:52.197] WARN [JS/SpecialIconAtlas] :0: Synchronous XMLHttpRequest on the main thread is deprecated because of its detrimental effects to the end user's experience. For more help, check http://xhr.spec.whatwg.org/.
+[04:12:52.197] WARN [JS/IconAtlas] :0: Synchronous XMLHttpRequest on the main thread is deprecated because of its detrimental effects to the end user's experience. For more help, check http://xhr.spec.whatwg.org/.
+[04:12:52.215] INFO [JS/SpecialIconAtlas] bundle://boot/boot.js:44663: coui://ui/mods/rfloatframe/rfloatframe.js loaded in 0.649 seconds
+[04:12:52.215] INFO [JS/IconAtlas] bundle://boot/boot.js:44663: coui://ui/mods/rfloatframe/rfloatframe.js loaded in 0.648 seconds
+[04:12:52.231] INFO [JS/SpecialIconAtlas] bundle://boot/boot.js:44663: coui://ui/mods/hotbuild2/global_mod_list/hotbuild.js loaded in 0.016 seconds
+[04:12:52.231] INFO [JS/IconAtlas] bundle://boot/boot.js:44663: coui://ui/mods/hotbuild2/global_mod_list/hotbuild.js loaded in 0.016 seconds
+[04:12:52.231] INFO [JS/SpecialIconAtlas] bundle://boot/boot.js:44701: mods loaded in 0.667 seconds
+[04:12:52.231] INFO [JS/IconAtlas] bundle://boot/boot.js:44701: mods loaded in 0.666 seconds
+[04:12:52.885] INFO Setting option graphics to 'custom'
+[04:12:52.885] INFO Setting option graphics.vte to 'high'
+[04:12:52.885] INFO Setting option graphics.headlights to 'uber'
+[04:12:52.885] INFO Setting option graphics.shadows to 'high'
+[04:12:52.885] INFO Setting option graphics.ao to 'on'
+[04:12:52.885] INFO Setting option graphics.hdr to 'off'
+[04:12:52.885] INFO Setting option graphics.aa to 'fxaa'
+[04:12:52.885] INFO Setting option graphics.display_mode to 'fullscreen'
+[04:12:52.886] INFO Setting camera mouse pan speed to 2x
+[04:12:52.886] INFO Setting camera key pan speed to 1.9x
+[04:12:52.886] INFO Setting camera zoom speed to 3.6x
+[04:12:52.886] INFO Setting camera friction to 2.5x
+[04:12:52.886] INFO Setting camera edge scroll to on
+[04:12:52.886] INFO Setting planet pole lock to off
+[04:12:52.902] INFO setMusic /Music/Main_Menu_Music_return_from_game
+[04:12:53.740] INFO [JS/uberbar] :781: initJabber
+[04:12:53.740] INFO [JS/uberbar] :176: Wed May 27 2020 04:12:53 GMT+0900 (JST) jabber connectOrResume
+[04:12:53.740] INFO [JS/uberbar] :229: Wed May 27 2020 04:12:53 GMT+0900 (JST) jabber connect
+[04:12:53.740] INFO [JS/uberbar] :353: jabber connecting
+[04:12:53.740] INFO [JS/uberbar] :60: Community Chat connect
+[04:12:53.953] INFO Setting option graphics to 'custom'
+[04:12:53.953] INFO Setting option graphics.vte to 'high'
+[04:12:53.953] INFO Setting option graphics.headlights to 'uber'
+[04:12:53.953] INFO Setting option graphics.shadows to 'high'
+[04:12:53.953] INFO Setting option graphics.ao to 'on'
+[04:12:53.953] INFO Setting option graphics.hdr to 'off'
+[04:12:53.953] INFO Setting option graphics.aa to 'fxaa'
+[04:12:53.953] INFO Setting option graphics.display_mode to 'fullscreen'
+[04:12:53.953] INFO Setting camera mouse pan speed to 2x
+[04:12:53.953] INFO Setting camera key pan speed to 1.9x
+[04:12:53.953] INFO Setting camera zoom speed to 3.6x
+[04:12:53.953] INFO Setting camera friction to 2.5x
+[04:12:53.953] INFO Setting camera edge scroll to on
+[04:12:53.953] INFO Setting planet pole lock to off
+[04:12:56.102] INFO ClientInterface constructed
+[04:12:56.511] INFO Client found 23 file system mods, mounted 21
+[04:12:56.512] INFO LoadedLocalModCollection::loadLocalModCollection: Failed listDir call for "/server_mods/"; no mods will be loaded from this path
+[04:12:56.512] WARN LoadedLocalModCollection::loadLocalModCollection: Could not open /server_mods/mods.json file; mods will not be mounted
+[04:12:56.520] INFO gEngineParams = {"gog":{"confirmed":false},"devmode":false,"steam":{"owned_content":["PAExpansion1"],"persona_name":"5413NY4","titans_kickstarter_gift":false,"confirmed":true,"steamid":"76561198110288954"}};
+gUnlockedContent = ["PAExpansion1"];
+gActiveContent = "PAExpansion1";
+gSessionBackup = {};
+gPanelPageId = undefined;
+gNoMods = false;
+gVersion = "114220";
+gBuild = "114220";
+gBuildID = "20200501043642";
+gBuildId = "20200501043642";
+[04:12:56.521] INFO gEngineParams = {"gog":{"confirmed":false},"devmode":false,"steam":{"owned_content":["PAExpansion1"],"persona_name":"5413NY4","titans_kickstarter_gift":false,"confirmed":true,"steamid":"76561198110288954"}};
+gUnlockedContent = ["PAExpansion1"];
+gActiveContent = "PAExpansion1";
+gSessionBackup = {};
+gPanelPageId = undefined;
+gNoMods = false;
+gVersion = "114220";
+gBuild = "114220";
+gBuildID = "20200501043642";
+gBuildId = "20200501043642";
+[04:12:56.525] INFO [JS/uberbar] :17: Community Chat authenticating
+[04:12:56.525] INFO [JS/uberbar] :142: Community Chat authenticated
+[04:12:56.614] ERROR [JS/SpecialIconAtlas] :1: Uncaught TypeError: undefined is not a function
+[04:12:56.614] INFO Caching boot.js & boot.css
+[04:12:56.648] ERROR [JS/IconAtlas] :1: Uncaught TypeError: undefined is not a function
+[04:12:56.856] WARN [JS/SpecialIconAtlas] :0: Synchronous XMLHttpRequest on the main thread is deprecated because of its detrimental effects to the end user's experience. For more help, check http://xhr.spec.whatwg.org/.
+[04:12:56.890] INFO [JS/SpecialIconAtlas] bundle://boot/boot.js:44663: coui://ui/mods/rfloatframe/rfloatframe.js loaded in 0.022 seconds
+[04:12:56.890] WARN [JS/IconAtlas] :0: Synchronous XMLHttpRequest on the main thread is deprecated because of its detrimental effects to the end user's experience. For more help, check http://xhr.spec.whatwg.org/.
+[04:12:56.912] INFO [JS/IconAtlas] bundle://boot/boot.js:44663: coui://ui/mods/rfloatframe/rfloatframe.js loaded in 0.031 seconds
+[04:12:56.912] INFO [JS/SpecialIconAtlas] bundle://boot/boot.js:44663: coui://ui/mods/hotbuild2/global_mod_list/hotbuild.js loaded in 0.033 seconds
+[04:12:56.912] INFO [JS/SpecialIconAtlas] bundle://boot/boot.js:44701: mods loaded in 0.057 seconds
+[04:12:56.914] INFO [JS/IconAtlas] bundle://boot/boot.js:44663: coui://ui/mods/hotbuild2/global_mod_list/hotbuild.js loaded in 0.022 seconds
+[04:12:56.914] INFO [JS/IconAtlas] bundle://boot/boot.js:44701: mods loaded in 0.054 seconds
+[04:12:58.357] INFO [JS/uberbar] :401: jabber connected
+[04:12:58.357] INFO [JS/uberbar] :439: getRank
+[04:13:00.011] INFO [JS/uberbar] :542: onRoster
+[04:13:00.392] INFO [JS/uberbar] :913: updateUser CraT4exa dnd from PA
+[04:14:00.645] INFO [JS/uberbar] :542: onRoster
+[04:14:58.126] INFO [COUI] Assert failure: This view doesn't support binding yet ViewImpl Id 0
+[04:14:58.126] INFO [COUI] Assert failure: This view doesn't support binding yet ViewImpl Id 0
+[04:14:58.126] INFO [COUI] Assert failure: This view doesn't support binding yet ViewImpl Id 0
+[04:14:58.129] INFO [COUI] Assert failure: This view doesn't support binding yet ViewImpl Id 3
+[04:14:58.129] INFO [COUI] Assert failure: This view doesn't support binding yet ViewImpl Id 3
+[04:14:58.129] INFO [COUI] Assert failure: This view doesn't support binding yet ViewImpl Id 3
+[04:14:58.132] INFO [COUI] Assert failure: This view doesn't support binding yet ViewImpl Id 4
+[04:14:58.132] INFO [COUI] Assert failure: This view doesn't support binding yet ViewImpl Id 4
+[04:14:58.132] INFO [COUI] Assert failure: This view doesn't support binding yet ViewImpl Id 4
+[04:14:58.133] INFO Shutting down CoherentUI
