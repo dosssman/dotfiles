@@ -43,10 +43,10 @@ bindsym $mod+d exec dmenu_run
 # bindsym $mod+d exec --no-startup-id i3-dmenu-desktop
 
 # change focus
-#bindsym $mod+j focus left
-#bindsym $mod+k focus down
-#bindsym $mod+l focus up
-#bindsym $mod+semicolon focus right
+bindsym $mod+h focus left
+bindsym $mod+j focus down
+bindsym $mod+k focus up
+bindsym $mod+l focus right
 
 # alternatively, you can use the cursor keys:
 bindsym $mod+Left focus left
@@ -58,10 +58,10 @@ bindsym $mod+Right focus right
 focus_follows_mouse no
 
 # move focused window
-bindsym $mod+Shift+j move left
-bindsym $mod+Shift+k move down
-bindsym $mod+Shift+l move up
-bindsym $mod+Shift+semicolon move right
+bindsym $mod+Shift+h move left
+bindsym $mod+Shift+j move down
+bindsym $mod+Shift+k move up
+bindsym $mod+Shift+l move right
 
 # alternatively, you can use the cursor keys:
 bindsym $mod+Shift+Left move left
@@ -70,7 +70,7 @@ bindsym $mod+Shift+Up move up
 bindsym $mod+Shift+Right move right
 
 # split in horizontal orientation
-bindsym $mod+h split h
+bindsym $mod+semicolon split h
 
 # split in vertical orientation
 bindsym $mod+v split v
@@ -106,7 +106,7 @@ set $ws6 "6"
 set $ws7 "7"
 set $ws8 "8"
 set $ws9 "9"
-set $ws10 "10"
+set $ws0 "0"
 
 # switch to workspace
 bindsym $mod+1 workspace $ws1
@@ -118,7 +118,7 @@ bindsym $mod+6 workspace $ws6
 bindsym $mod+7 workspace $ws7
 bindsym $mod+8 workspace $ws8
 bindsym $mod+9 workspace $ws9
-bindsym $mod+0 workspace $ws10
+bindsym $mod+0 workspace $ws0
 
 # move focused container to workspace
 bindsym $mod+Shift+1 move container to workspace $ws1
@@ -130,10 +130,9 @@ bindsym $mod+Shift+6 move container to workspace $ws6
 bindsym $mod+Shift+7 move container to workspace $ws7
 bindsym $mod+Shift+8 move container to workspace $ws8
 bindsym $mod+Shift+9 move container to workspace $ws9
-bindsym $mod+Shift+0 move container to workspace $ws10
+bindsym $mod+Shift+0 move container to workspace $ws0
 
 # Move container to workspace, then go there
-
 bindsym $mod+Shift+Ctrl+1 move container to workspace $ws1; workspace $ws1
 bindsym $mod+Shift+Ctrl+2 move container to workspace $ws2; workspace $ws2
 bindsym $mod+Shift+Ctrl+3 move container to workspace $ws3; workspace $ws3
@@ -143,7 +142,7 @@ bindsym $mod+Shift+Ctrl+6 move container to workspace $ws6; workspace $ws6
 bindsym $mod+Shift+Ctrl+7 move container to workspace $ws7; workspace $ws7
 bindsym $mod+Shift+Ctrl+8 move container to workspace $ws8; workspace $ws8
 bindsym $mod+Shift+Ctrl+9 move container to workspace $ws9; workspace $ws9
-bindsym $mod+Shift+Ctrl+0 move container to workspace $ws10; workspace $ws10
+bindsym $mod+Shift+Ctrl+0 move container to workspace $ws10; workspace $ws0
 
 # reload the configuration file
 bindsym $mod+Shift+c reload
@@ -160,10 +159,10 @@ mode "resize" {
         # Pressing right will grow the window’s width.
         # Pressing up will shrink the window’s height.
         # Pressing down will grow the window’s height.
-        bindsym j resize shrink width 10 px or 10 ppt
-        bindsym k resize grow height 10 px or 10 ppt
-        bindsym l resize shrink height 10 px or 10 ppt
-        bindsym semicolon resize grow width 10 px or 10 ppt
+        bindsym h resize shrink width 10 px or 10 ppt
+        bindsym j resize grow height 10 px or 10 ppt
+        bindsym k resize shrink height 10 px or 10 ppt
+        bindsym l resize grow width 10 px or 10 ppt
 
         # same bindings, but for the arrow keys
         bindsym Left resize shrink width 10 px or 10 ppt
@@ -190,11 +189,10 @@ bar {
 }
 # Keyboard settings
 #exec "setxkbmap -option 'grp:alt_shift_toggle' -layout en_US,jp,fr"
-exec "setxkbmap -option 'grp:alt_shift_toggle' -layout us"
+#exec "setxkbmap -option 'grp:alt_shift_toggle' -layout us"
 #exec_always --no-startup-id $HOME/.config/polybar/launch.sh
 #exec_always --no-startup-id fcitx -d
-exec_always --no-startup-id ibus-daemon -d
-
+exec_always --no-startup-id ibus-daemon -drx
 
 # Volume Icon
 #exec --no-startup-id volumeicon
@@ -205,19 +203,21 @@ exec "killall -q xss-lock"
 exec_always --no-startup-id xss-lock /home/z3r0/.config/i3/i3lockcustomblank.sh
 
 # i3Lock
-bindsym $mod+l exec "/home/z3r0/.config/i3/i3lockcustomblank.sh"
+bindsym $mod+Mod1+l exec "/home/z3r0/.config/i3/i3lockcustomblank.sh"
 
 # Hibernate and blackouti
 # bindsym $mod+Shift+b exec "i3-nagbar -t warning -m 'Go into Hibernation mode ?' -B 'Yah' 'systemctl hibernate'"
 #bindsym $mod+Shift+b "exec /home/z3r0/.config/i3/i3lockcustom.sh && systemctl hibernat"
 #bindsym $mod+Shift+b exec "i3-nagbar -t warning -m 'Enter hibernation mode ?' -B 'Yes' '/home/z3r0/.config/i3/i3lockcustom.sh && systemctl hibernate'"
+## bdisc makes sure to disconnect the bluetooth on the laptop, other wise head aches ensues at next resume.
 bindsym $mod+Shift+b exec "i3-input -P 'Entering hibernation mode ? Enter = Yes , Esc = No' -F 'exec /home/z3r0/.config/i3/i3lockcustom.sh && systemctl hibernate'"
 
 # File manager
 bindsym $mod+n exec thunar
 
 # Incognito Browser
-bindsym $mod+z exec brave --incognito
+bindsym $mod+z exec brave
+# bindsym $mod+z exec brave --incognito
 
 # Redshift Day/Night toggle
 bindsym $mod+m exec redshift -P -O 4200
