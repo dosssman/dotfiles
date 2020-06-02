@@ -2316,20 +2316,14 @@ console.log( e.stack || e );
 
     self.clientModNewGameJS = ko.computed( function()
     {
-        var js = 'try { var aiPersonalities = model.aiPersonalities(); var hard = aiPersonalities[ "Hard" ]; if ( hard ) { hard.personality_tags = _.without( hard.personality_tags, "PreventsWaste" ); } var relentless = aiPersonalities[ "Relentless" ]; if ( relentless ) { relentless.max_basic_fabbers = 10; relentless.max_advanced_fabbers = 30; } var absurd = aiPersonalities[ "Absurd" ]; if ( absurd ) { absurd.max_basic_fabbers = 20; absurd.max_advanced_fabbers = 50; }; model.aiPersonalities.valueHasMutated(); } catch ( e ) { console.error( e ); console.trace(); };';
+        var js = 'try { model.uberId = api.net.uberId; } catch ( e ) { console.error( e ); console.trace(); };';
 
         return js;
     });
 
     self.clientModLiveGameChatJS = ko.computed( function()
     {
-        // community ban chats from abusive users and child molesters
-
-        // "the game needs the ability to be able to block people.. the moron talking dirty to my son deserves to go to jail"
-
-        var js = 'try { var cmBlockNames = []; api.net.ubernet( "/GameClient/UserNames?TitleId=4&UberIds=5694050965219254536", "GET", "json").done( function (data) { if ( data && data.Users ) { cmBlockNames = _.map( data.Users, function( user ) { return user.TitleDisplayName; } ) }; } ); var cmChatMessage = handlers.chat_message; handlers.chat_message = function( payload ) { if ( payload && cmBlockNames.indexOf( payload.player_name ) != -1 ) { console.log( payload.player_name + " " + payload.message ); return; } else { cmChatMessage( payload ); } } } catch ( e ) { console.error( e ); console.trace(); };';
-
-        return js;
+        return '';
     });
 
     self.clientModZipData = ko.computed( function()

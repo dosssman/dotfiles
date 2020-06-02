@@ -1,7 +1,8 @@
-// (C) COPYRIGHT 2016-2019 palobby.com All rights reserved.
+// (C) COPYRIGHT 2016-2020 palobby.com All rights reserved.
 
 function CommunityMods()
 {
+    model.uberId = api.net.uberId;
 }
 
 try
