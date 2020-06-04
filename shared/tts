@@ -1,1 +1,0 @@
-termdown $1 && vlc /home/z3r0/Videos/TimeToStopJoji.mp4 --rate 1.25 --video-on-top --play-and-exit --key-vol-up 125 && clear && exit
