@@ -1,0 +1,39 @@
+#!/data/data/com.termux/files/usr/bin/bash
+CHOICES=("0: Cancel" "1: Youtube 480p" "2: Youtube Audio only", "3: Youtube 720p")
+
+for (( IDX=0; IDX<"${#CHOICES[@]}" ; IDX++ )); do
+	echo "${CHOICES[$IDX]}"
+done
+#Getting user choice
+USERCHOICE=
+
+while [[ -z "${USERCHOICE}" ]] || ! [[ "${USERCHOICE}" =~ ^[0-9]+$ ]] || [[ "${USERCHOICE}" < 0 ]] || [[ "${USERCHOICE}" > "${#CHOICES[@]}" ]]; do
+	read -p "What shall it be ?" USERCHOICE
+	if ! [[ "${USERCHOICE}" =~ ^[0-9]+$ ]] || [[ "${USERCHOICE}" < 0 ]] || [[ "${USERCHOICE}" > "${USERCHOICE}" ]]; then
+		echo "Invalid input. Try again."
+	elif [[ "${USERCHOICE}" -eq 0 ]]; then
+		echo "Goodbye"
+	elif [[ "${USERCHOICE}" -eq 1 ]]; then
+		echo "Selected Youtube 480p mode"
+		if [[ -z $1 ]]; then
+			echo "Could not find the Youtube URL"
+		else
+			youtube-dl -f 18 $1
+		fi
+	elif [[ "${USERCHOICE}" -eq 2 ]]; then
+		echo "Selected Youtube Audio Only mode"
+		if [[ -z $1 ]]; then
+			echo "Could not find the Youtube URL"
+		else
+			youtube-dl -f 249 $1
+		fi
+	elif [[ "${USERCHOICE}" -eq 3 ]]; then
+                echo "Selected Youtube 720p mode"
+                if [[ -z $1 ]]; then
+                        echo "Could not find the Youtube URL"
+                else
+                        youtube-dl -f 22 $1
+                fi
+        fi
+done
+#echo "User entered ${USERCHOICE}"
