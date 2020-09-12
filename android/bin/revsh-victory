@@ -1,0 +1,4 @@
+#!/bin/bash
+pkill -f "sshd -p 8022"
+sshd -p 8022
+ssh -R 8022:localhost:8022 victory -fNT
