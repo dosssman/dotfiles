@@ -1,4 +1,4 @@
-#!/bin/bashA
+#!/bin/bash
 ## Cleaing up in case they already exist
 pkill -f "sshd -p 8022"
 pkill -f "ssh -R 8022:localhost:8022 victory -fNT"
