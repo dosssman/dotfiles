@@ -1,0 +1,10 @@
+#!/bin/bashA
+## Cleaing up in case they already exist
+pkill -f "sshd -p 8022"
+pkill -f "ssh -R 8022:localhost:8022 victory -fNT"
+pkill -f "ssh -R 59000:localhost:5901 victory -fNT"
+
+## Staring the sshd and necessary reverse shells
+sshd -p 8022
+ssh -R 8022:localhost:8022 victory -fNT
+ssh -R 59000:localhost:5901 victory -fNT
