@@ -169,8 +169,8 @@ mode "resize" {
 bindsym $mod+r mode "resize"
 
 # Screen config
-#exec_always 'xrandr --output DVI-D-0 --off'
-#exec_always 'xrandr --output DVI-D-0 --auto --right-of DP-4'
+exec_always --no-startup-id "xrandr --output 'DP-4' --primary"
+exec_always --no-startup-id "xrandr --output 'DVI-D-0' --right-of 'DP-4' --auto"
 workspace 1 output DP-4
 workspace 0 output DVI-D-0
 
@@ -181,6 +181,7 @@ bar {
 	position top
   status_command i3blocks
 	font pango:monospace 8, Awesome 8
+	tray_output DVI-D-0
 }
 
 # Keyboard settings
