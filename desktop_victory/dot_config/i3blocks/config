@@ -1,0 +1,75 @@
+[disk]
+command=./disk/disk
+LABEL= /: 
+#DIR=$HOME
+#ALERT_LOW=10
+interval=30
+
+[volume-pulseaudio]
+command=./volume-pulseaudio/volume-pulseaudio
+interval=3
+signal=1
+#MIXER=[determined automatically]
+#SCONTROL=[determined automatically]
+##exposed format variables: ${SYMB}, ${VOL}, ${INDEX}, ${NAME}
+#LONG_FORMAT="${SYMB} ${VOL}% [${INDEX}:${NAME}]"
+LONG_FORMAT="${SYMB} ${VOL}% [${NAME}]"
+#SHORT_FORMAT="${SYMB} ${VOL}% [${INDEX}]"
+AUDIO_HIGH_SYMBOL= 
+AUDIO_MED_THRESH=40
+AUDIO_MED_SYMBOL= 
+#AUDIO_LOW_THRESH=0
+AUDIO_LOW_SYMBOL= 
+AUDIO_DELTA=5
+#DEFAULT_COLOR="#ffffff"
+MUTED_COLOR="#a0a0a0"
+#USE_ALSA_NAME=0
+USE_DESCRIPTION=1
+## SUBSCRIBE=1 requires interval=persist and always uses LONG_FORMAT
+#SUBSCRIBE=0
+
+[iface_wifi]
+command=./iface/iface
+LABEL= 
+IFACE=wlp4s0
+#ADDRESS_FAMILY=inet6?
+color=#00FF00
+interval=10
+
+[iface_eth]
+command=./iface/iface
+LABEL=[LAN] 
+IFACE=eno1
+#ADDRESS_FAMILY=inet6?
+color=#00FF00
+interval=10
+
+[iface_eth_tethering]
+command=./iface/iface
+LABEL=[Tether] 
+IFACE=enp0s26u1u2
+#ADDRESS_FAMILY=inet6?
+color=#00FF00
+interval=10
+
+[ram]
+command=echo -n ' '; ./memory/memory | grep -E -o '^[0-9]+.[0-9]G'
+interval=30
+
+[cpu_usage2]
+command=./cpu_usage2/cpu_usage2
+markup=pango
+interval=persist
+LABEL=
+#min_width=CPU: 100.00%
+#T_WARN=50
+#T_CRIT=80
+#DECIMALS=2
+
+[time]
+command=./time/time
+interval=5
+#TZ_FILE=~/.tz
+STRFTIME_FORMAT=%Y-%m-%d %H:%M:%S [%a]
+TZONES=$DEFAULT_TZ,Europe/Paris
+TZ_LABELS=,Paris
