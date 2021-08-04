@@ -1,5 +1,5 @@
 #!/data/data/com.termux/files/usr/bin/bash
-CHOICES=("0: Cancel" "1: Youtube 480p" "2: Youtube Audio only", "3: Youtube 720p")
+CHOICES=("0: Cancel" "1: Youtube 480p" "2: Youtube Audio only", "3: Youtube 720p", "4: Youtube 1080p")
 
 for (( IDX=0; IDX<"${#CHOICES[@]}" ; IDX++ )); do
 	echo "${CHOICES[$IDX]}"
@@ -28,12 +28,19 @@ while [[ -z "${USERCHOICE}" ]] || ! [[ "${USERCHOICE}" =~ ^[0-9]+$ ]] || [[ "${U
 			youtube-dl -f 249 $1
 		fi
 	elif [[ "${USERCHOICE}" -eq 3 ]]; then
-                echo "Selected Youtube 720p mode"
-                if [[ -z $1 ]]; then
-                        echo "Could not find the Youtube URL"
-                else
-                        youtube-dl -f 22 $1
-                fi
-        fi
+    echo "Selected Youtube 720p mode"
+      if [[ -z $1 ]]; then
+        echo "Could not find the Youtube URL"
+      else
+        youtube-dl -f 22 $1
+      fi
+	elif [[ "${USERCHOICE}" -eq 4 ]]; then
+    echo "Selected Youtube 1080p mode"
+      if [[ -z $1 ]]; then
+        echo "Could not find the Youtube URL"
+      else
+       youtube-dl -f 303+251 $1
+			fi
+	fi
 done
 #echo "User entered ${USERCHOICE}"
