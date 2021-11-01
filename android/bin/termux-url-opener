@@ -18,28 +18,28 @@ while [[ -z "${USERCHOICE}" ]] || ! [[ "${USERCHOICE}" =~ ^[0-9]+$ ]] || [[ "${U
 		if [[ -z $1 ]]; then
 			echo "Could not find the Youtube URL"
 		else
-			youtube-dl -f 18 $1
+			yt-dlp -f 18 $1
 		fi
 	elif [[ "${USERCHOICE}" -eq 2 ]]; then
 		echo "Selected Youtube Audio Only mode"
 		if [[ -z $1 ]]; then
 			echo "Could not find the Youtube URL"
 		else
-			youtube-dl -f 249 $1
+			yt-dlp -f 249 $1
 		fi
 	elif [[ "${USERCHOICE}" -eq 3 ]]; then
     echo "Selected Youtube 720p mode"
       if [[ -z $1 ]]; then
         echo "Could not find the Youtube URL"
       else
-        youtube-dl -f 22 $1
+        yt-dlp -f 22 $1
       fi
 	elif [[ "${USERCHOICE}" -eq 4 ]]; then
     echo "Selected Youtube 1080p mode"
       if [[ -z $1 ]]; then
         echo "Could not find the Youtube URL"
       else
-       youtube-dl -f 303+251 $1
+       yt-dlp -f 303+251 $1
 			fi
 	fi
 done
